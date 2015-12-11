@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDEBF71E1C1B8AFB0058F067 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF71D1C1B8AFB0058F067 /* main.m */; };
+		EDEBF7211C1B8AFB0058F067 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF7201C1B8AFB0058F067 /* AppDelegate.m */; };
+		EDEBF7241C1B8AFB0058F067 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF7231C1B8AFB0058F067 /* ViewController.m */; };
+		EDEBF7271C1B8AFB0058F067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEBF7251C1B8AFB0058F067 /* Main.storyboard */; };
+		EDEBF7291C1B8AFB0058F067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEBF7281C1B8AFB0058F067 /* Assets.xcassets */; };
+		EDEBF72C1C1B8AFB0058F067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEBF72A1C1B8AFB0058F067 /* LaunchScreen.storyboard */; };
+		EDEBF7371C1B8AFB0058F067 /* Efrei_Picture_StudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF7361C1B8AFB0058F067 /* Efrei_Picture_StudioTests.m */; };
+		EDEBF7421C1B8AFB0058F067 /* Efrei_Picture_StudioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF7411C1B8AFB0058F067 /* Efrei_Picture_StudioUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDEBF7331C1B8AFB0058F067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDEBF7111C1B8AFB0058F067 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDEBF7181C1B8AFB0058F067;
+			remoteInfo = "Efrei Picture Studio";
+		};
+		EDEBF73E1C1B8AFB0058F067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDEBF7111C1B8AFB0058F067 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDEBF7181C1B8AFB0058F067;
+			remoteInfo = "Efrei Picture Studio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDEBF7191C1B8AFB0058F067 /* Efrei Picture Studio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Efrei Picture Studio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEBF71D1C1B8AFB0058F067 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDEBF71F1C1B8AFB0058F067 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDEBF7201C1B8AFB0058F067 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDEBF7221C1B8AFB0058F067 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDEBF7231C1B8AFB0058F067 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDEBF7261C1B8AFB0058F067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDEBF7281C1B8AFB0058F067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDEBF72B1C1B8AFB0058F067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDEBF72D1C1B8AFB0058F067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEBF7321C1B8AFB0058F067 /* Efrei Picture StudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Efrei Picture StudioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEBF7361C1B8AFB0058F067 /* Efrei_Picture_StudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Efrei_Picture_StudioTests.m; sourceTree = "<group>"; };
+		EDEBF7381C1B8AFB0058F067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEBF73D1C1B8AFB0058F067 /* Efrei Picture StudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Efrei Picture StudioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEBF7411C1B8AFB0058F067 /* Efrei_Picture_StudioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Efrei_Picture_StudioUITests.m; sourceTree = "<group>"; };
+		EDEBF7431C1B8AFB0058F067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDEBF7161C1B8AFB0058F067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEBF72F1C1B8AFB0058F067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEBF73A1C1B8AFB0058F067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDEBF7101C1B8AFB0058F067 = {
+			isa = PBXGroup;
+			children = (
+				EDEBF71B1C1B8AFB0058F067 /* Efrei Picture Studio */,
+				EDEBF7351C1B8AFB0058F067 /* Efrei Picture StudioTests */,
+				EDEBF7401C1B8AFB0058F067 /* Efrei Picture StudioUITests */,
+				EDEBF71A1C1B8AFB0058F067 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDEBF71A1C1B8AFB0058F067 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDEBF7191C1B8AFB0058F067 /* Efrei Picture Studio.app */,
+				EDEBF7321C1B8AFB0058F067 /* Efrei Picture StudioTests.xctest */,
+				EDEBF73D1C1B8AFB0058F067 /* Efrei Picture StudioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDEBF71B1C1B8AFB0058F067 /* Efrei Picture Studio */ = {
+			isa = PBXGroup;
+			children = (
+				EDEBF71F1C1B8AFB0058F067 /* AppDelegate.h */,
+				EDEBF7201C1B8AFB0058F067 /* AppDelegate.m */,
+				EDEBF7221C1B8AFB0058F067 /* ViewController.h */,
+				EDEBF7231C1B8AFB0058F067 /* ViewController.m */,
+				EDEBF7251C1B8AFB0058F067 /* Main.storyboard */,
+				EDEBF7281C1B8AFB0058F067 /* Assets.xcassets */,
+				EDEBF72A1C1B8AFB0058F067 /* LaunchScreen.storyboard */,
+				EDEBF72D1C1B8AFB0058F067 /* Info.plist */,
+				EDEBF71C1C1B8AFB0058F067 /* Supporting Files */,
+			);
+			path = "Efrei Picture Studio";
+			sourceTree = "<group>";
+		};
+		EDEBF71C1C1B8AFB0058F067 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDEBF71D1C1B8AFB0058F067 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDEBF7351C1B8AFB0058F067 /* Efrei Picture StudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDEBF7361C1B8AFB0058F067 /* Efrei_Picture_StudioTests.m */,
+				EDEBF7381C1B8AFB0058F067 /* Info.plist */,
+			);
+			path = "Efrei Picture StudioTests";
+			sourceTree = "<group>";
+		};
+		EDEBF7401C1B8AFB0058F067 /* Efrei Picture StudioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDEBF7411C1B8AFB0058F067 /* Efrei_Picture_StudioUITests.m */,
+				EDEBF7431C1B8AFB0058F067 /* Info.plist */,
+			);
+			path = "Efrei Picture StudioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDEBF7181C1B8AFB0058F067 /* Efrei Picture Studio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEBF7461C1B8AFC0058F067 /* Build configuration list for PBXNativeTarget "Efrei Picture Studio" */;
+			buildPhases = (
+				EDEBF7151C1B8AFB0058F067 /* Sources */,
+				EDEBF7161C1B8AFB0058F067 /* Frameworks */,
+				EDEBF7171C1B8AFB0058F067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Efrei Picture Studio";
+			productName = "Efrei Picture Studio";
+			productReference = EDEBF7191C1B8AFB0058F067 /* Efrei Picture Studio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDEBF7311C1B8AFB0058F067 /* Efrei Picture StudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEBF7491C1B8AFC0058F067 /* Build configuration list for PBXNativeTarget "Efrei Picture StudioTests" */;
+			buildPhases = (
+				EDEBF72E1C1B8AFB0058F067 /* Sources */,
+				EDEBF72F1C1B8AFB0058F067 /* Frameworks */,
+				EDEBF7301C1B8AFB0058F067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDEBF7341C1B8AFB0058F067 /* PBXTargetDependency */,
+			);
+			name = "Efrei Picture StudioTests";
+			productName = "Efrei Picture StudioTests";
+			productReference = EDEBF7321C1B8AFB0058F067 /* Efrei Picture StudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDEBF73C1C1B8AFB0058F067 /* Efrei Picture StudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEBF74C1C1B8AFC0058F067 /* Build configuration list for PBXNativeTarget "Efrei Picture StudioUITests" */;
+			buildPhases = (
+				EDEBF7391C1B8AFB0058F067 /* Sources */,
+				EDEBF73A1C1B8AFB0058F067 /* Frameworks */,
+				EDEBF73B1C1B8AFB0058F067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDEBF73F1C1B8AFB0058F067 /* PBXTargetDependency */,
+			);
+			name = "Efrei Picture StudioUITests";
+			productName = "Efrei Picture StudioUITests";
+			productReference = EDEBF73D1C1B8AFB0058F067 /* Efrei Picture StudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDEBF7111C1B8AFB0058F067 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Thomas Lanquetin";
+				TargetAttributes = {
+					EDEBF7181C1B8AFB0058F067 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					EDEBF7311C1B8AFB0058F067 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = EDEBF7181C1B8AFB0058F067;
+					};
+					EDEBF73C1C1B8AFB0058F067 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = EDEBF7181C1B8AFB0058F067;
+					};
+				};
+			};
+			buildConfigurationList = EDEBF7141C1B8AFB0058F067 /* Build configuration list for PBXProject "Efrei Picture Studio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDEBF7101C1B8AFB0058F067;
+			productRefGroup = EDEBF71A1C1B8AFB0058F067 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDEBF7181C1B8AFB0058F067 /* Efrei Picture Studio */,
+				EDEBF7311C1B8AFB0058F067 /* Efrei Picture StudioTests */,
+				EDEBF73C1C1B8AFB0058F067 /* Efrei Picture StudioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDEBF7171C1B8AFB0058F067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEBF72C1C1B8AFB0058F067 /* LaunchScreen.storyboard in Resources */,
+				EDEBF7291C1B8AFB0058F067 /* Assets.xcassets in Resources */,
+				EDEBF7271C1B8AFB0058F067 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEBF7301C1B8AFB0058F067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEBF73B1C1B8AFB0058F067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDEBF7151C1B8AFB0058F067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEBF7241C1B8AFB0058F067 /* ViewController.m in Sources */,
+				EDEBF7211C1B8AFB0058F067 /* AppDelegate.m in Sources */,
+				EDEBF71E1C1B8AFB0058F067 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEBF72E1C1B8AFB0058F067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEBF7371C1B8AFB0058F067 /* Efrei_Picture_StudioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEBF7391C1B8AFB0058F067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEBF7421C1B8AFB0058F067 /* Efrei_Picture_StudioUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDEBF7341C1B8AFB0058F067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDEBF7181C1B8AFB0058F067 /* Efrei Picture Studio */;
+			targetProxy = EDEBF7331C1B8AFB0058F067 /* PBXContainerItemProxy */;
+		};
+		EDEBF73F1C1B8AFB0058F067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDEBF7181C1B8AFB0058F067 /* Efrei Picture Studio */;
+			targetProxy = EDEBF73E1C1B8AFB0058F067 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDEBF7251C1B8AFB0058F067 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEBF7261C1B8AFB0058F067 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDEBF72A1C1B8AFB0058F067 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEBF72B1C1B8AFB0058F067 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDEBF7441C1B8AFC0058F067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDEBF7451C1B8AFC0058F067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDEBF7471C1B8AFC0058F067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Efrei Picture Studio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Efrei-Picture-Studio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDEBF7481C1B8AFC0058F067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Efrei Picture Studio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Efrei-Picture-Studio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDEBF74A1C1B8AFC0058F067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Efrei Picture StudioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Efrei-Picture-StudioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Efrei Picture Studio.app/Efrei Picture Studio";
+			};
+			name = Debug;
+		};
+		EDEBF74B1C1B8AFC0058F067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Efrei Picture StudioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Efrei-Picture-StudioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Efrei Picture Studio.app/Efrei Picture Studio";
+			};
+			name = Release;
+		};
+		EDEBF74D1C1B8AFC0058F067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Efrei Picture StudioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Efrei-Picture-StudioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Efrei Picture Studio";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EDEBF74E1C1B8AFC0058F067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Efrei Picture StudioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Efrei-Picture-StudioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Efrei Picture Studio";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDEBF7141C1B8AFB0058F067 /* Build configuration list for PBXProject "Efrei Picture Studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEBF7441C1B8AFC0058F067 /* Debug */,
+				EDEBF7451C1B8AFC0058F067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEBF7461C1B8AFC0058F067 /* Build configuration list for PBXNativeTarget "Efrei Picture Studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEBF7471C1B8AFC0058F067 /* Debug */,
+				EDEBF7481C1B8AFC0058F067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDEBF7491C1B8AFC0058F067 /* Build configuration list for PBXNativeTarget "Efrei Picture StudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEBF74A1C1B8AFC0058F067 /* Debug */,
+				EDEBF74B1C1B8AFC0058F067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDEBF74C1C1B8AFC0058F067 /* Build configuration list for PBXNativeTarget "Efrei Picture StudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEBF74D1C1B8AFC0058F067 /* Debug */,
+				EDEBF74E1C1B8AFC0058F067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDEBF7111C1B8AFB0058F067 /* Project object */;
+}
