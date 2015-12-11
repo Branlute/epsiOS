@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69B146392A1D17B69381D800 /* Pods_Efrei_Picture_Studio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1FF0D9C68CCE7AB3A7A66F /* Pods_Efrei_Picture_Studio.framework */; };
 		EDEBF71E1C1B8AFB0058F067 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF71D1C1B8AFB0058F067 /* main.m */; };
 		EDEBF7211C1B8AFB0058F067 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF7201C1B8AFB0058F067 /* AppDelegate.m */; };
 		EDEBF7241C1B8AFB0058F067 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF7231C1B8AFB0058F067 /* ViewController.m */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B8E9AD92FDBFED91B3E1B86 /* Pods-Efrei Picture Studio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Efrei Picture Studio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Efrei Picture Studio/Pods-Efrei Picture Studio.debug.xcconfig"; sourceTree = "<group>"; };
+		D2C4F6A27025ACFC00F0B6DE /* Pods-Efrei Picture Studio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Efrei Picture Studio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Efrei Picture Studio/Pods-Efrei Picture Studio.release.xcconfig"; sourceTree = "<group>"; };
+		DF1FF0D9C68CCE7AB3A7A66F /* Pods_Efrei_Picture_Studio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Efrei_Picture_Studio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEBF7191C1B8AFB0058F067 /* Efrei Picture Studio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Efrei Picture Studio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEBF71D1C1B8AFB0058F067 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDEBF71F1C1B8AFB0058F067 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B146392A1D17B69381D800 /* Pods_Efrei_Picture_Studio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B68FE564F38D9B6148BFB2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF1FF0D9C68CCE7AB3A7A66F /* Pods_Efrei_Picture_Studio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1860F8C925055D4DBBA8F108 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B8E9AD92FDBFED91B3E1B86 /* Pods-Efrei Picture Studio.debug.xcconfig */,
+				D2C4F6A27025ACFC00F0B6DE /* Pods-Efrei Picture Studio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EDEBF7101C1B8AFB0058F067 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				EDEBF7351C1B8AFB0058F067 /* Efrei Picture StudioTests */,
 				EDEBF7401C1B8AFB0058F067 /* Efrei Picture StudioUITests */,
 				EDEBF71A1C1B8AFB0058F067 /* Products */,
+				1860F8C925055D4DBBA8F108 /* Pods */,
+				0B68FE564F38D9B6148BFB2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDEBF7461C1B8AFC0058F067 /* Build configuration list for PBXNativeTarget "Efrei Picture Studio" */;
 			buildPhases = (
+				F0061EEB35EF478756D92752 /* Check Pods Manifest.lock */,
 				EDEBF7151C1B8AFB0058F067 /* Sources */,
 				EDEBF7161C1B8AFB0058F067 /* Frameworks */,
 				EDEBF7171C1B8AFB0058F067 /* Resources */,
+				1D72FB3E326A6D5D2540B2AA /* Embed Pods Frameworks */,
+				679459FF24D73546B1B76111 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +291,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D72FB3E326A6D5D2540B2AA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Efrei Picture Studio/Pods-Efrei Picture Studio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		679459FF24D73546B1B76111 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Efrei Picture Studio/Pods-Efrei Picture Studio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0061EEB35EF478756D92752 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EDEBF7151C1B8AFB0058F067 /* Sources */ = {
@@ -409,6 +484,7 @@
 		};
 		EDEBF7471C1B8AFC0058F067 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8E9AD92FDBFED91B3E1B86 /* Pods-Efrei Picture Studio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Efrei Picture Studio/Info.plist";
@@ -420,6 +496,7 @@
 		};
 		EDEBF7481C1B8AFC0058F067 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C4F6A27025ACFC00F0B6DE /* Pods-Efrei Picture Studio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Efrei Picture Studio/Info.plist";
@@ -496,6 +573,7 @@
 				EDEBF7481C1B8AFC0058F067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDEBF7491C1B8AFC0058F067 /* Build configuration list for PBXNativeTarget "Efrei Picture StudioTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +582,7 @@
 				EDEBF74B1C1B8AFC0058F067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDEBF74C1C1B8AFC0058F067 /* Build configuration list for PBXNativeTarget "Efrei Picture StudioUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +591,7 @@
 				EDEBF74E1C1B8AFC0058F067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
