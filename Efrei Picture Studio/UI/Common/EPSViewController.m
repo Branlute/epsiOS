@@ -6,13 +6,13 @@
 //  Copyright © 2015 Thomas Lanquetin. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "EPSViewController.h"
 
-@interface ViewController ()
+@interface EPSViewController ()
 
 @end
 
-@implementation ViewController
+@implementation EPSViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		69B146392A1D17B69381D800 /* Pods_Efrei_Picture_Studio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1FF0D9C68CCE7AB3A7A66F /* Pods_Efrei_Picture_Studio.framework */; };
+		EDBA8CCE1C2A1042000A2FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBA8CCD1C2A1042000A2FF2 /* LaunchScreen.storyboard */; };
+		EDBA8CD01C2A1065000A2FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBA8CCF1C2A1065000A2FF2 /* Assets.xcassets */; };
+		EDBA8CD31C2A1076000A2FF2 /* EPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA8CD21C2A1076000A2FF2 /* EPSViewController.m */; };
+		EDBA8CD51C2A108C000A2FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBA8CD41C2A108C000A2FF2 /* Main.storyboard */; };
+		EDBA8CD81C2A11DA000A2FF2 /* HomeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA8CD71C2A11DA000A2FF2 /* HomeResponse.m */; };
+		EDBA8CDB1C2A1257000A2FF2 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA8CDA1C2A1257000A2FF2 /* Album.m */; };
+		EDBA8CE11C2A12E7000A2FF2 /* ApiService.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA8CE01C2A12E7000A2FF2 /* ApiService.m */; };
+		EDBA8CE41C2A13B3000A2FF2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA8CE31C2A13B3000A2FF2 /* HomeViewController.m */; };
 		EDEBF71E1C1B8AFB0058F067 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF71D1C1B8AFB0058F067 /* main.m */; };
 		EDEBF7211C1B8AFB0058F067 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF7201C1B8AFB0058F067 /* AppDelegate.m */; };
-		EDEBF7241C1B8AFB0058F067 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF7231C1B8AFB0058F067 /* ViewController.m */; };
-		EDEBF7271C1B8AFB0058F067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEBF7251C1B8AFB0058F067 /* Main.storyboard */; };
-		EDEBF7291C1B8AFB0058F067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEBF7281C1B8AFB0058F067 /* Assets.xcassets */; };
-		EDEBF72C1C1B8AFB0058F067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEBF72A1C1B8AFB0058F067 /* LaunchScreen.storyboard */; };
 		EDEBF7371C1B8AFB0058F067 /* Efrei_Picture_StudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF7361C1B8AFB0058F067 /* Efrei_Picture_StudioTests.m */; };
 		EDEBF7421C1B8AFB0058F067 /* Efrei_Picture_StudioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF7411C1B8AFB0058F067 /* Efrei_Picture_StudioUITests.m */; };
 /* End PBXBuildFile section */
@@ -39,15 +43,23 @@
 		6B8E9AD92FDBFED91B3E1B86 /* Pods-Efrei Picture Studio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Efrei Picture Studio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Efrei Picture Studio/Pods-Efrei Picture Studio.debug.xcconfig"; sourceTree = "<group>"; };
 		D2C4F6A27025ACFC00F0B6DE /* Pods-Efrei Picture Studio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Efrei Picture Studio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Efrei Picture Studio/Pods-Efrei Picture Studio.release.xcconfig"; sourceTree = "<group>"; };
 		DF1FF0D9C68CCE7AB3A7A66F /* Pods_Efrei_Picture_Studio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Efrei_Picture_Studio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBA8CCD1C2A1042000A2FF2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDBA8CCF1C2A1065000A2FF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDBA8CD11C2A1076000A2FF2 /* EPSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSViewController.h; sourceTree = "<group>"; };
+		EDBA8CD21C2A1076000A2FF2 /* EPSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSViewController.m; sourceTree = "<group>"; };
+		EDBA8CD41C2A108C000A2FF2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EDBA8CD61C2A11DA000A2FF2 /* HomeResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeResponse.h; sourceTree = "<group>"; };
+		EDBA8CD71C2A11DA000A2FF2 /* HomeResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeResponse.m; sourceTree = "<group>"; };
+		EDBA8CD91C2A1257000A2FF2 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		EDBA8CDA1C2A1257000A2FF2 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		EDBA8CDF1C2A12E7000A2FF2 /* ApiService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiService.h; sourceTree = "<group>"; };
+		EDBA8CE01C2A12E7000A2FF2 /* ApiService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiService.m; sourceTree = "<group>"; };
+		EDBA8CE21C2A13B3000A2FF2 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EDBA8CE31C2A13B3000A2FF2 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		EDEBF7191C1B8AFB0058F067 /* Efrei Picture Studio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Efrei Picture Studio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEBF71D1C1B8AFB0058F067 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDEBF71F1C1B8AFB0058F067 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDEBF7201C1B8AFB0058F067 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EDEBF7221C1B8AFB0058F067 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EDEBF7231C1B8AFB0058F067 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EDEBF7261C1B8AFB0058F067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EDEBF7281C1B8AFB0058F067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EDEBF72B1C1B8AFB0058F067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDEBF72D1C1B8AFB0058F067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDEBF7321C1B8AFB0058F067 /* Efrei Picture StudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Efrei Picture StudioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEBF7361C1B8AFB0058F067 /* Efrei_Picture_StudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Efrei_Picture_StudioTests.m; sourceTree = "<group>"; };
@@ -100,6 +112,94 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EDBA8CC21C2A0ECC000A2FF2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA8CCF1C2A1065000A2FF2 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EDBA8CC41C2A0ECC000A2FF2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA8CD41C2A108C000A2FF2 /* Main.storyboard */,
+				EDBA8CCC1C2A1042000A2FF2 /* SplashScreen */,
+				EDBA8CC51C2A0ECC000A2FF2 /* Common */,
+				EDBA8CC61C2A0ECC000A2FF2 /* Home */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EDBA8CC51C2A0ECC000A2FF2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA8CD11C2A1076000A2FF2 /* EPSViewController.h */,
+				EDBA8CD21C2A1076000A2FF2 /* EPSViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EDBA8CC61C2A0ECC000A2FF2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA8CE21C2A13B3000A2FF2 /* HomeViewController.h */,
+				EDBA8CE31C2A13B3000A2FF2 /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EDBA8CC71C2A0ECC000A2FF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA8CC81C2A0ECC000A2FF2 /* Network */,
+				EDBA8CD91C2A1257000A2FF2 /* Album.h */,
+				EDBA8CDA1C2A1257000A2FF2 /* Album.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDBA8CC81C2A0ECC000A2FF2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA8CD61C2A11DA000A2FF2 /* HomeResponse.h */,
+				EDBA8CD71C2A11DA000A2FF2 /* HomeResponse.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EDBA8CC91C2A0ECC000A2FF2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA8CCA1C2A0ECC000A2FF2 /* Network */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EDBA8CCA1C2A0ECC000A2FF2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA8CDF1C2A12E7000A2FF2 /* ApiService.h */,
+				EDBA8CE01C2A12E7000A2FF2 /* ApiService.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EDBA8CCB1C2A0EF1000A2FF2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		EDBA8CCC1C2A1042000A2FF2 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA8CCD1C2A1042000A2FF2 /* LaunchScreen.storyboard */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
 		EDEBF7101C1B8AFB0058F067 = {
 			isa = PBXGroup;
 			children = (
@@ -127,11 +227,11 @@
 			children = (
 				EDEBF71F1C1B8AFB0058F067 /* AppDelegate.h */,
 				EDEBF7201C1B8AFB0058F067 /* AppDelegate.m */,
-				EDEBF7221C1B8AFB0058F067 /* ViewController.h */,
-				EDEBF7231C1B8AFB0058F067 /* ViewController.m */,
-				EDEBF7251C1B8AFB0058F067 /* Main.storyboard */,
-				EDEBF7281C1B8AFB0058F067 /* Assets.xcassets */,
-				EDEBF72A1C1B8AFB0058F067 /* LaunchScreen.storyboard */,
+				EDBA8CC71C2A0ECC000A2FF2 /* Model */,
+				EDBA8CC41C2A0ECC000A2FF2 /* UI */,
+				EDBA8CC91C2A0ECC000A2FF2 /* Service */,
+				EDBA8CCB1C2A0EF1000A2FF2 /* Util */,
+				EDBA8CC21C2A0ECC000A2FF2 /* Resource */,
 				EDEBF72D1C1B8AFB0058F067 /* Info.plist */,
 				EDEBF71C1C1B8AFB0058F067 /* Supporting Files */,
 			);
@@ -270,9 +370,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDEBF72C1C1B8AFB0058F067 /* LaunchScreen.storyboard in Resources */,
-				EDEBF7291C1B8AFB0058F067 /* Assets.xcassets in Resources */,
-				EDEBF7271C1B8AFB0058F067 /* Main.storyboard in Resources */,
+				EDBA8CCE1C2A1042000A2FF2 /* LaunchScreen.storyboard in Resources */,
+				EDBA8CD01C2A1065000A2FF2 /* Assets.xcassets in Resources */,
+				EDBA8CD51C2A108C000A2FF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,8 +445,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDEBF7241C1B8AFB0058F067 /* ViewController.m in Sources */,
+				EDBA8CD31C2A1076000A2FF2 /* EPSViewController.m in Sources */,
+				EDBA8CD81C2A11DA000A2FF2 /* HomeResponse.m in Sources */,
 				EDEBF7211C1B8AFB0058F067 /* AppDelegate.m in Sources */,
+				EDBA8CE11C2A12E7000A2FF2 /* ApiService.m in Sources */,
+				EDBA8CDB1C2A1257000A2FF2 /* Album.m in Sources */,
+				EDBA8CE41C2A13B3000A2FF2 /* HomeViewController.m in Sources */,
 				EDEBF71E1C1B8AFB0058F067 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,25 +485,6 @@
 			targetProxy = EDEBF73E1C1B8AFB0058F067 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EDEBF7251C1B8AFB0058F067 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDEBF7261C1B8AFB0058F067 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EDEBF72A1C1B8AFB0058F067 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDEBF72B1C1B8AFB0058F067 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EDEBF7441C1B8AFC0058F067 /* Debug */ = {
