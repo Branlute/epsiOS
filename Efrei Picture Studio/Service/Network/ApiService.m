@@ -8,6 +8,67 @@
 
 #import "ApiService.h"
 
+#import "RestClient.h"
+
+#import "HomeResponse.h"
+
+#define PATH_WS_HOME @"webservice/home"
+
+static ApiService * _sharedApiService;
+
+@interface ApiService ()
+
+@property(nonatomic, strong) RestClient* restClient;
+
+
+@end
+
 @implementation ApiService
+
+#pragma mark - Singleton
+
+
+- (id) initApiService {
+    self = [super init];
+    if (self) {
+        _restClient = [[RestClient alloc] initWithBaseURL:BASE_URL];
+    }
+    return self;
+}
+
++ (ApiService *)sharedApiService {
+    @synchronized(self) {
+        if(_sharedApiService == nil) {
+            _sharedApiService = [[ApiService alloc] initApiService];
+            
+        }
+    }
+    return _sharedApiService;
+}
+
+
+
+#pragma mark - WebService Call
+
+- (void) getHomeWithSuccess:(void (^)(HomeResponse *))successBlock andFailure:(void (^)(NSError *))failureBlock {
+    [self.restClient dictionaryForURL:PATH_WS_HOME withSuccess:^(NSDictionary *responseObject) {
+        NSError * error;
+        HomeResponse * homeResponse = [[HomeResponse alloc] initWithDictionary:responseObject error:&error];
+        if (error) {
+            if (failureBlock) {
+                failureBlock(error);
+            }
+            return;
+        }
+        if (successBlock) {
+            successBlock(homeResponse);
+        }
+        
+    } andFailure:^(NSError *error) {
+        if (failureBlock) {
+            failureBlock(error);
+        }
+    }];
+}
 
 @end

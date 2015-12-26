@@ -8,6 +8,10 @@
 
 #import <JSONModel/JSONModel.h>
 
+@protocol EPSAlbum;
+
 @interface HomeResponse : JSONModel
+
+@property(nonatomic, strong) NSArray<EPSAlbum>* albums;
 
 @end

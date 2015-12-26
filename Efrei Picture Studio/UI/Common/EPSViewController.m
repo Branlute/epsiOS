@@ -8,16 +8,35 @@
 
 #import "EPSViewController.h"
 
+#import "ApiService.h"
+#import "HomeResponse.h"
+
 @interface EPSViewController ()
 
 @end
 
 @implementation EPSViewController
 
+
+#pragma mark - Init
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [APISERVICE getHomeWithSuccess:^(HomeResponse *homeResponse) {
+        NSLog(@"%@", [homeResponse description]);
+    } andFailure:^(NSError *error) {
+        NSLog(@"%@", [error description]);
+        
+    }];
+}
+
+
+#pragma mark - Memory Manager
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
