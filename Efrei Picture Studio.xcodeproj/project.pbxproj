@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		69B146392A1D17B69381D800 /* Pods_Efrei_Picture_Studio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1FF0D9C68CCE7AB3A7A66F /* Pods_Efrei_Picture_Studio.framework */; };
+		ED23E2C31C30023D00E09254 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED23E2C21C30023D00E09254 /* MenuViewController.m */; };
 		EDA66A121C2E9257004176F5 /* RestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA66A111C2E9257004176F5 /* RestClient.m */; };
 		EDBA8CCE1C2A1042000A2FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBA8CCD1C2A1042000A2FF2 /* LaunchScreen.storyboard */; };
 		EDBA8CD01C2A1065000A2FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBA8CCF1C2A1065000A2FF2 /* Assets.xcassets */; };
@@ -23,6 +24,8 @@
 		EDEBF7211C1B8AFB0058F067 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF7201C1B8AFB0058F067 /* AppDelegate.m */; };
 		EDEBF7371C1B8AFB0058F067 /* Efrei_Picture_StudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF7361C1B8AFB0058F067 /* Efrei_Picture_StudioTests.m */; };
 		EDEBF7421C1B8AFB0058F067 /* Efrei_Picture_StudioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF7411C1B8AFB0058F067 /* Efrei_Picture_StudioUITests.m */; };
+		EDFBEE181C3058D900BB1DCD /* ManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFBEE171C3058D900BB1DCD /* ManagerViewController.m */; };
+		EDFBEE231C305AF200BB1DCD /* MEDynamicTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFBEE1E1C305AF200BB1DCD /* MEDynamicTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,8 @@
 		6B8E9AD92FDBFED91B3E1B86 /* Pods-Efrei Picture Studio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Efrei Picture Studio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Efrei Picture Studio/Pods-Efrei Picture Studio.debug.xcconfig"; sourceTree = "<group>"; };
 		D2C4F6A27025ACFC00F0B6DE /* Pods-Efrei Picture Studio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Efrei Picture Studio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Efrei Picture Studio/Pods-Efrei Picture Studio.release.xcconfig"; sourceTree = "<group>"; };
 		DF1FF0D9C68CCE7AB3A7A66F /* Pods_Efrei_Picture_Studio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Efrei_Picture_Studio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED23E2C11C30023D00E09254 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		ED23E2C21C30023D00E09254 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		EDA66A101C2E9257004176F5 /* RestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestClient.h; sourceTree = "<group>"; };
 		EDA66A111C2E9257004176F5 /* RestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestClient.m; sourceTree = "<group>"; };
 		EDBA8CCD1C2A1042000A2FF2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +81,10 @@
 		EDEBF73D1C1B8AFB0058F067 /* Efrei Picture StudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Efrei Picture StudioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEBF7411C1B8AFB0058F067 /* Efrei_Picture_StudioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Efrei_Picture_StudioUITests.m; sourceTree = "<group>"; };
 		EDEBF7431C1B8AFB0058F067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFBEE161C3058D900BB1DCD /* ManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagerViewController.h; sourceTree = "<group>"; };
+		EDFBEE171C3058D900BB1DCD /* ManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagerViewController.m; sourceTree = "<group>"; };
+		EDFBEE1D1C305AF200BB1DCD /* MEDynamicTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEDynamicTransition.h; sourceTree = "<group>"; };
+		EDFBEE1E1C305AF200BB1DCD /* MEDynamicTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEDynamicTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +152,13 @@
 		EDBA8CC51C2A0ECC000A2FF2 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				EDFBEE191C305A6300BB1DCD /* Transision */,
 				EDBA8CD11C2A1076000A2FF2 /* EPSViewController.h */,
 				EDBA8CD21C2A1076000A2FF2 /* EPSViewController.m */,
+				ED23E2C11C30023D00E09254 /* MenuViewController.h */,
+				ED23E2C21C30023D00E09254 /* MenuViewController.m */,
+				EDFBEE161C3058D900BB1DCD /* ManagerViewController.h */,
+				EDFBEE171C3058D900BB1DCD /* ManagerViewController.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -277,6 +291,15 @@
 				EDEBF7431C1B8AFB0058F067 /* Info.plist */,
 			);
 			path = "Efrei Picture StudioUITests";
+			sourceTree = "<group>";
+		};
+		EDFBEE191C305A6300BB1DCD /* Transision */ = {
+			isa = PBXGroup;
+			children = (
+				EDFBEE1D1C305AF200BB1DCD /* MEDynamicTransition.h */,
+				EDFBEE1E1C305AF200BB1DCD /* MEDynamicTransition.m */,
+			);
+			path = Transision;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -468,7 +491,10 @@
 				EDBA8CE11C2A12E7000A2FF2 /* ApiService.m in Sources */,
 				EDA66A121C2E9257004176F5 /* RestClient.m in Sources */,
 				EDBA8CDB1C2A1257000A2FF2 /* EPSAlbum.m in Sources */,
+				EDFBEE181C3058D900BB1DCD /* ManagerViewController.m in Sources */,
 				EDBA8CE41C2A13B3000A2FF2 /* HomeViewController.m in Sources */,
+				ED23E2C31C30023D00E09254 /* MenuViewController.m in Sources */,
+				EDFBEE231C305AF200BB1DCD /* MEDynamicTransition.m in Sources */,
 				EDEBF71E1C1B8AFB0058F067 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,27 +1,25 @@
 //
-//  ViewController.m
+//  MenuViewController.m
 //  Efrei Picture Studio
 //
-//  Created by Thomas Lanquetin on 11/12/2015.
+//  Created by Thomas Lanquetin on 27/12/2015.
 //  Copyright © 2015 Thomas Lanquetin. All rights reserved.
 //
 
-#import "EPSViewController.h"
+#import "MenuViewController.h"
 
-@interface EPSViewController ()
+@interface MenuViewController ()
 
 @end
 
-@implementation EPSViewController
-
+@implementation MenuViewController
 
 #pragma mark - Init
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
-
 
 #pragma mark - Memory Manager
 
@@ -29,5 +27,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end
