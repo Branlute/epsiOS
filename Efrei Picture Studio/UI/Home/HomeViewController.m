@@ -8,13 +8,19 @@
 
 #import "HomeViewController.h"
 
+//UI
+#import "AlbumTableViewCell.h"
+
 //Webservice
 #import "ApiService.h"
 #import "HomeResponse.h"
 
-@interface HomeViewController()
+@interface HomeViewController() <UITableViewDelegate, UITableViewDataSource>
 
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property(nonatomic, strong) HomeResponse* homeResponse;
+@property(nonatomic, strong) UIRefreshControl* refreshControl;
+@property(nonatomic, readwrite) Class classCell;
 
 @end
 
@@ -29,17 +35,59 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [APISERVICE getHomeWithSuccess:^(HomeResponse *homeResponse) {
-//        NSLog(@"%@", [homeResponse description]);
-        self.homeResponse = homeResponse;
-    } andFailure:^(NSError *error) {
-        NSLog(@"%@", [error description]);
-        
-    }];
+
+    
+    _refreshControl = [[UIRefreshControl alloc] init];
+    [_refreshControl addTarget:self action:@selector(refreshData) forControlEvents:UIControlEventValueChanged];
+    [self.tableView addSubview:_refreshControl];
+    self.tableView.dataSource = self;
+    _classCell = [AlbumTableViewCell class];
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass(_classCell) bundle:[NSBundle bundleForClass:_classCell]] forCellReuseIdentifier:NSStringFromClass(_classCell)];
+    
+    
+    [self refreshData];
+}
+
+
+#pragma mark - Refresh Data
+
+
+
+- (void) refreshView {
+    [self.tableView reloadData];
+    [self.refreshControl endRefreshing];
+    
+}
+
+
+#pragma mark - <UITableViewDataSource>
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [self.homeResponse.albums count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(_classCell)];
+    return cell;
 }
 
 
 
+#pragma mark - <UITableViewDelegate>
+
+#pragma mark - Webservice
+
+- (void) refreshData {
+    [self.refreshControl beginRefreshing];
+    [APISERVICE getHomeWithSuccess:^(HomeResponse *homeResponse) {
+        self.homeResponse = homeResponse;
+        [self refreshView];
+    } andFailure:^(NSError *error) {
+        NSLog(@"%@", [error description]);
+        [self refreshView];
+        
+    }];
+}
 
 #pragma mark - Memory Manager
 

@@ -26,6 +26,8 @@
 		EDEBF7421C1B8AFB0058F067 /* Efrei_Picture_StudioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF7411C1B8AFB0058F067 /* Efrei_Picture_StudioUITests.m */; };
 		EDFBEE181C3058D900BB1DCD /* ManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFBEE171C3058D900BB1DCD /* ManagerViewController.m */; };
 		EDFBEE231C305AF200BB1DCD /* MEDynamicTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFBEE1E1C305AF200BB1DCD /* MEDynamicTransition.m */; };
+		EDFBEE2B1C309CA700BB1DCD /* AlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFBEE291C309CA700BB1DCD /* AlbumTableViewCell.m */; };
+		EDFBEE2C1C309CA700BB1DCD /* AlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDFBEE2A1C309CA700BB1DCD /* AlbumTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,9 @@
 		EDFBEE171C3058D900BB1DCD /* ManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagerViewController.m; sourceTree = "<group>"; };
 		EDFBEE1D1C305AF200BB1DCD /* MEDynamicTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEDynamicTransition.h; sourceTree = "<group>"; };
 		EDFBEE1E1C305AF200BB1DCD /* MEDynamicTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEDynamicTransition.m; sourceTree = "<group>"; };
+		EDFBEE281C309CA700BB1DCD /* AlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTableViewCell.h; sourceTree = "<group>"; };
+		EDFBEE291C309CA700BB1DCD /* AlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTableViewCell.m; sourceTree = "<group>"; };
+		EDFBEE2A1C309CA700BB1DCD /* AlbumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +146,7 @@
 		EDBA8CC41C2A0ECC000A2FF2 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				EDFBEE261C309C6D00BB1DCD /* Album */,
 				EDBA8CD41C2A108C000A2FF2 /* Main.storyboard */,
 				EDBA8CCC1C2A1042000A2FF2 /* SplashScreen */,
 				EDBA8CC51C2A0ECC000A2FF2 /* Common */,
@@ -302,6 +308,24 @@
 			path = Transision;
 			sourceTree = "<group>";
 		};
+		EDFBEE261C309C6D00BB1DCD /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				EDFBEE271C309C6D00BB1DCD /* Cell */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		EDFBEE271C309C6D00BB1DCD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EDFBEE281C309CA700BB1DCD /* AlbumTableViewCell.h */,
+				EDFBEE291C309CA700BB1DCD /* AlbumTableViewCell.m */,
+				EDFBEE2A1C309CA700BB1DCD /* AlbumTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -411,6 +435,7 @@
 				EDBA8CCE1C2A1042000A2FF2 /* LaunchScreen.storyboard in Resources */,
 				EDBA8CD01C2A1065000A2FF2 /* Assets.xcassets in Resources */,
 				EDBA8CD51C2A108C000A2FF2 /* Main.storyboard in Resources */,
+				EDFBEE2C1C309CA700BB1DCD /* AlbumTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +519,7 @@
 				EDFBEE181C3058D900BB1DCD /* ManagerViewController.m in Sources */,
 				EDBA8CE41C2A13B3000A2FF2 /* HomeViewController.m in Sources */,
 				ED23E2C31C30023D00E09254 /* MenuViewController.m in Sources */,
+				EDFBEE2B1C309CA700BB1DCD /* AlbumTableViewCell.m in Sources */,
 				EDFBEE231C305AF200BB1DCD /* MEDynamicTransition.m in Sources */,
 				EDEBF71E1C1B8AFB0058F067 /* main.m in Sources */,
 			);
