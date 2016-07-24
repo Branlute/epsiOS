@@ -16,15 +16,18 @@ PODS:
     - AFNetworking/NSURLSession
   - ECSlidingViewController (2.0.3)
   - JSONModel (1.1.2)
+  - Toast (3.0)
 
 DEPENDENCIES:
   - AFNetworking (= 3.0.1)
   - ECSlidingViewController (~> 2.0.3)
   - JSONModel (= 1.1.2)
+  - Toast (= 3.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 20d8749e03e45f1e5c046ad0b647e0b07bcdd91f
   ECSlidingViewController: 6485c14f23b4487e9946535421ca8f111f86cc53
   JSONModel: 216584d0311b053ff714f1d6cb700dbf890847bc
+  Toast: 32c59229abfcf41850162b83bb9259dc84372473
 
 COCOAPODS: 0.39.0
