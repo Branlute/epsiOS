@@ -1,4 +1,4 @@
- //
+//
 //  AlbumTableViewCell.m
 //  Efrei Picture Studio
 //
@@ -27,7 +27,7 @@
 - (void) setEpsAlbum:(EPSAlbum *)epsAlbum {
     _epsAlbum = epsAlbum;
     self.titleLabel.text = epsAlbum.name;
-    [self.albumImageView setImageWithURL:[NSURL URLWithString:[epsAlbum urlThumb]]];
+    [self.albumImageView setImageWithURL:[NSURL URLWithString:[epsAlbum urlThumb]] placeholderImage:[UIImage imageNamed:@"EPS-Logo"]];
 }
 
 @end
