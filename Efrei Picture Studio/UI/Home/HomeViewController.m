@@ -11,6 +11,9 @@
 //UI
 #import "AlbumTableViewCell.h"
 
+//Model
+#import "EPSAlbum.h"
+
 //Webservice
 #import "ApiService.h"
 #import "HomeResponse.h"
@@ -67,7 +70,8 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(_classCell)];
+    AlbumTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(_classCell)];
+    cell.epsAlbum = [self.homeResponse.albums objectAtIndex:indexPath.row];
     return cell;
 }
 

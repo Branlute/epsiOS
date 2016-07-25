@@ -8,6 +8,11 @@
 
 #import "EPSAlbum.h"
 
+//Network
+#import "ApiService.h"
+
+#define DIRECTORY_THUMB @"miniatures"
+
 @implementation EPSAlbum
 
 
@@ -20,6 +25,12 @@
                                                        @"visit_count": @"visitCount",
                                                        @"like_count": @"likeCount"
                                                        }];
+}
+
+
+- (NSString *) urlThumb {
+    NSString * urlString = [NSString stringWithFormat:@"%@/%@/%@/%@", BASE_URL, DIRECTORY_THUMB, self.idAlbum, self.thumb];
+    return [urlString stringByAddingPercentEncodingWithAllowedCharacters:NSCharacterSet.URLQueryAllowedCharacterSet];
 }
 
 @end

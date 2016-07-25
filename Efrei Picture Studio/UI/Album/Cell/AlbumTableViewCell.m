@@ -1,4 +1,4 @@
-//
+ //
 //  AlbumTableViewCell.m
 //  Efrei Picture Studio
 //
@@ -8,6 +8,12 @@
 
 #import "AlbumTableViewCell.h"
 
+//Model
+#import "EPSAlbum.h"
+
+//Utils
+#import "UIImageView+AFNetworking.h"
+
 @interface AlbumTableViewCell ()
 
 @end
@@ -16,6 +22,12 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
+}
+
+- (void) setEpsAlbum:(EPSAlbum *)epsAlbum {
+    _epsAlbum = epsAlbum;
+    self.titleLabel.text = epsAlbum.name;
+    [self.albumImageView setImageWithURL:[NSURL URLWithString:[epsAlbum urlThumb]]];
 }
 
 @end

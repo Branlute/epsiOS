@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class EPSAlbum;
+
 @interface AlbumTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *albumImageView;
+
+@property (nonatomic, strong) EPSAlbum * epsAlbum;
 
 @end

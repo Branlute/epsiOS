@@ -23,4 +23,7 @@
 @property(nonatomic, strong) EPSCategory* category;
 @property(nonatomic, strong) NSArray<EPSUser>* reporters;
 
+
+- (NSString *) urlThumb;
+
 @end
