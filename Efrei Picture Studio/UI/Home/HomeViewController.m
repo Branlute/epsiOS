@@ -57,8 +57,6 @@
     
     [self refreshData];
     
-    
-    //    self.slideshow = [[KASlideShow alloc] initWithFrame:CGRectMake(0,0,320,0)];
     self.slideshow.delegate = self;
     [self.slideshow setDelay:DelayBetweenTransitions]; // Delay between transitions
     [self.slideshow setTransitionDuration:1]; // Transition duration
@@ -67,7 +65,6 @@
     [self.slideshow addGesture:KASlideShowGestureTap]; // Gesture to go previous/next directly on the image
     
     [self refreshCarousel];
-    //    [self performSelector:@selector(refreshCarousel) withObject:nil afterDelay:2];
 }
 
 
@@ -82,7 +79,7 @@
 - (void) setCurrentSlider:(EPSSlider *) slider {
     if (slider) {
         self.sliderLabel.superview.alpha = 0;
-        self.sliderLabel.text = [NSString stringWithFormat:@"%@, par %@  ", slider.album.name, slider.user.username];
+        self.sliderLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Home_slider_text", nil), slider.album.name, slider.user.username];
         self.sliderLabel.superview.hidden = NO;
         [UIView animateWithDuration:AnimationDurationSlider animations:^{
             self.sliderLabel.superview.alpha = 1;

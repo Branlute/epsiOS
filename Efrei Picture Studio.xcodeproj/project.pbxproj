@@ -20,6 +20,7 @@
 		EDBA8CE41C2A13B3000A2FF2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA8CE31C2A13B3000A2FF2 /* HomeViewController.m */; };
 		EDD0816C1D4B76D300A727EF /* SliderResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD0816B1D4B76D300A727EF /* SliderResponse.m */; };
 		EDD0816F1D4B773100A727EF /* EPSSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD0816E1D4B773100A727EF /* EPSSlider.m */; };
+		EDD7166F1D50ACEA002D247A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDD7166E1D50ACEA002D247A /* Localizable.strings */; };
 		EDEBACA01C2F414A0054C6E4 /* EPSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBAC9F1C2F414A0054C6E4 /* EPSCategory.m */; };
 		EDEBACA31C2F41610054C6E4 /* EPSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBACA21C2F41610054C6E4 /* EPSUser.m */; };
 		EDEBF71E1C1B8AFB0058F067 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF71D1C1B8AFB0058F067 /* main.m */; };
@@ -75,6 +76,7 @@
 		EDD0816B1D4B76D300A727EF /* SliderResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderResponse.m; sourceTree = "<group>"; };
 		EDD0816D1D4B773100A727EF /* EPSSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSSlider.h; sourceTree = "<group>"; };
 		EDD0816E1D4B773100A727EF /* EPSSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSSlider.m; sourceTree = "<group>"; };
+		EDD7166E1D50ACEA002D247A /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		EDEBAC9E1C2F414A0054C6E4 /* EPSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSCategory.h; sourceTree = "<group>"; };
 		EDEBAC9F1C2F414A0054C6E4 /* EPSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSCategory.m; sourceTree = "<group>"; };
 		EDEBACA11C2F41610054C6E4 /* EPSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSUser.h; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				EDBA8CCF1C2A1065000A2FF2 /* Assets.xcassets */,
+				EDD7166E1D50ACEA002D247A /* Localizable.strings */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -448,6 +451,7 @@
 				EDBA8CD01C2A1065000A2FF2 /* Assets.xcassets in Resources */,
 				EDBA8CD51C2A108C000A2FF2 /* Main.storyboard in Resources */,
 				EDFBEE2C1C309CA700BB1DCD /* AlbumTableViewCell.xib in Resources */,
+				EDD7166F1D50ACEA002D247A /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

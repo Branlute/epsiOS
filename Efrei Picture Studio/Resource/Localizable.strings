@@ -1,0 +1,18 @@
+/* 
+ i18n.strings
+ Efrei Picture Studio
+ 
+ Created by Thomas Lanquetin on 02/08/2016.
+ Copyright © 2016 Thomas Lanquetin. All rights reserved.
+ */
+
+
+
+//GENERAL
+
+//HOME
+"Home_slider_text" = "%@, par %@";
+
+//ALBUM
+
+"Album_authors_text" = "Par : ";

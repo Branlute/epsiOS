@@ -40,7 +40,7 @@
     self.dateLabel.text = [dateFormatter stringFromDate:epsAlbum.date];
     
     //On set maintenant le label qui affiche la liste des auteurs, le nom des auteurs sera en gras
-    NSMutableAttributedString * authorsString = [[NSMutableAttributedString alloc] initWithString:@"Par : "];
+    NSMutableAttributedString * authorsString = [[NSMutableAttributedString alloc] initWithString:NSLocalizedString(@"Album_authors_text", nil)];
     NSString * lastNameString = @"";
     for (EPSUser * reporter in epsAlbum.reporters) {
         lastNameString = [lastNameString stringByAppendingString:reporter.username];
