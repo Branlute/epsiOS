@@ -12,14 +12,15 @@
 #define APISERVICE [ApiService sharedApiService]
 
 #if __DEBUG__
+#define BASE_URL @"http://localhost:8888/epsSite/www/"
 //#define BASE_URL @"http://localhost/app_dev.php/"
 //#define BASE_URL @"http://localhost/EPSV2/www/app_dev.php/"
-#define BASE_URL @"http://eps.assos.efrei.fr/"
+//#define BASE_URL @"http://eps.assos.efrei.fr/"
 #else /// Prod
 #define BASE_URL @"http://eps.assos.efrei.fr/"
 #endif
 
-@class HomeResponse;
+@class HomeResponse, SliderResponse;
 
 @interface ApiService : NSObject
 
@@ -35,4 +36,8 @@
 #pragma mark - WebService Call
 
 - (void) getHomeWithSuccess:(void (^)(HomeResponse *homeResponse))successBlock andFailure:(void (^)(NSError *error))failureBlock;
+
+
+- (void) getSliderWithSuccess:(void (^)(SliderResponse *))successBlock andFailure:(void (^)(NSError *))failureBlock;
+
 @end

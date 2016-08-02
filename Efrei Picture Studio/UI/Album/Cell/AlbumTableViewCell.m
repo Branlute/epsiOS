@@ -43,7 +43,7 @@
     NSMutableAttributedString * authorsString = [[NSMutableAttributedString alloc] initWithString:@"Par : "];
     NSString * lastNameString = @"";
     for (EPSUser * reporter in epsAlbum.reporters) {
-        lastNameString = [lastNameString stringByAppendingString:reporter.lastname];
+        lastNameString = [lastNameString stringByAppendingString:reporter.username];
         
         if (reporter != [epsAlbum.reporters lastObject]) {
             lastNameString = [lastNameString stringByAppendingString:@", "];

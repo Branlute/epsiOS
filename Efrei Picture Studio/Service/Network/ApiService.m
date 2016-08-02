@@ -11,8 +11,10 @@
 #import "RestClient.h"
 
 #import "HomeResponse.h"
+#import "SliderResponse.h"
 
 #define PATH_WS_HOME @"webservice/home"
+#define PATH_WS_SLIDER @"webservice/slider"
 
 static ApiService * _sharedApiService;
 
@@ -40,7 +42,7 @@ static ApiService * _sharedApiService;
     @synchronized(self) {
         if(_sharedApiService == nil) {
             _sharedApiService = [[ApiService alloc] initApiService];
-            
+
         }
     }
     return _sharedApiService;
@@ -62,6 +64,29 @@ static ApiService * _sharedApiService;
         }
         if (successBlock) {
             successBlock(homeResponse);
+        }
+        
+    } andFailure:^(NSError *error) {
+        if (failureBlock) {
+            failureBlock(error);
+        }
+    }];
+}
+
+
+
+- (void) getSliderWithSuccess:(void (^)(SliderResponse *))successBlock andFailure:(void (^)(NSError *))failureBlock {
+    [self.restClient dictionaryForURL:PATH_WS_SLIDER withSuccess:^(NSDictionary *responseObject) {
+        NSError * error;
+        SliderResponse * sliderResponse = [[SliderResponse alloc] initWithDictionary:responseObject error:&error];
+        if (error) {
+            if (failureBlock) {
+                failureBlock(error);
+            }
+            return;
+        }
+        if (successBlock) {
+            successBlock(sliderResponse);
         }
         
     } andFailure:^(NSError *error) {

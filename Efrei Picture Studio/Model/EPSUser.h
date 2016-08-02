@@ -11,6 +11,7 @@
 @interface EPSUser : JSONModel
 
 @property(nonatomic, strong) NSNumber* idUser;
+@property(nonatomic, strong) NSString* username;
 @property(nonatomic, strong) NSString* firstname;
 @property(nonatomic, strong) NSString* lastname;
 @property(nonatomic, strong) NSString* promo;

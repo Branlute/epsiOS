@@ -18,6 +18,8 @@
 		EDBA8CDB1C2A1257000A2FF2 /* EPSAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA8CDA1C2A1257000A2FF2 /* EPSAlbum.m */; };
 		EDBA8CE11C2A12E7000A2FF2 /* ApiService.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA8CE01C2A12E7000A2FF2 /* ApiService.m */; };
 		EDBA8CE41C2A13B3000A2FF2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBA8CE31C2A13B3000A2FF2 /* HomeViewController.m */; };
+		EDD0816C1D4B76D300A727EF /* SliderResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD0816B1D4B76D300A727EF /* SliderResponse.m */; };
+		EDD0816F1D4B773100A727EF /* EPSSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD0816E1D4B773100A727EF /* EPSSlider.m */; };
 		EDEBACA01C2F414A0054C6E4 /* EPSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBAC9F1C2F414A0054C6E4 /* EPSCategory.m */; };
 		EDEBACA31C2F41610054C6E4 /* EPSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBACA21C2F41610054C6E4 /* EPSUser.m */; };
 		EDEBF71E1C1B8AFB0058F067 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBF71D1C1B8AFB0058F067 /* main.m */; };
@@ -69,6 +71,10 @@
 		EDBA8CE21C2A13B3000A2FF2 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		EDBA8CE31C2A13B3000A2FF2 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		EDD081641D452FB000A727EF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EDD0816A1D4B76D300A727EF /* SliderResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderResponse.h; sourceTree = "<group>"; };
+		EDD0816B1D4B76D300A727EF /* SliderResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderResponse.m; sourceTree = "<group>"; };
+		EDD0816D1D4B773100A727EF /* EPSSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSSlider.h; sourceTree = "<group>"; };
+		EDD0816E1D4B773100A727EF /* EPSSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSSlider.m; sourceTree = "<group>"; };
 		EDEBAC9E1C2F414A0054C6E4 /* EPSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSCategory.h; sourceTree = "<group>"; };
 		EDEBAC9F1C2F414A0054C6E4 /* EPSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSCategory.m; sourceTree = "<group>"; };
 		EDEBACA11C2F41610054C6E4 /* EPSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSUser.h; sourceTree = "<group>"; };
@@ -189,6 +195,8 @@
 				EDEBAC9F1C2F414A0054C6E4 /* EPSCategory.m */,
 				EDEBACA11C2F41610054C6E4 /* EPSUser.h */,
 				EDEBACA21C2F41610054C6E4 /* EPSUser.m */,
+				EDD0816D1D4B773100A727EF /* EPSSlider.h */,
+				EDD0816E1D4B773100A727EF /* EPSSlider.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,6 +206,8 @@
 			children = (
 				EDBA8CD61C2A11DA000A2FF2 /* HomeResponse.h */,
 				EDBA8CD71C2A11DA000A2FF2 /* HomeResponse.m */,
+				EDD0816A1D4B76D300A727EF /* SliderResponse.h */,
+				EDD0816B1D4B76D300A727EF /* SliderResponse.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -511,10 +521,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDEBACA31C2F41610054C6E4 /* EPSUser.m in Sources */,
+				EDD0816F1D4B773100A727EF /* EPSSlider.m in Sources */,
 				EDBA8CD31C2A1076000A2FF2 /* EPSViewController.m in Sources */,
 				EDEBACA01C2F414A0054C6E4 /* EPSCategory.m in Sources */,
 				EDBA8CD81C2A11DA000A2FF2 /* HomeResponse.m in Sources */,
 				EDEBF7211C1B8AFB0058F067 /* AppDelegate.m in Sources */,
+				EDD0816C1D4B76D300A727EF /* SliderResponse.m in Sources */,
 				EDBA8CE11C2A12E7000A2FF2 /* ApiService.m in Sources */,
 				EDA66A121C2E9257004176F5 /* RestClient.m in Sources */,
 				EDBA8CDB1C2A1257000A2FF2 /* EPSAlbum.m in Sources */,

@@ -29,6 +29,7 @@ AFNetworking            | 3.1.0             | 2016-03-31   | 2016-07-24         
 Toast                   | 3.0               | 2015-10-28   | 2016-07-24             | Pour avoir des toats en debug
 ECSlidingViewController | 2.0.3             | 2014-08-23   | 2016-07-24             | Une
 JSONModel               | 1.3.0             | 2016-07-22   | 2016-07-24             | Le sdk de poleStar pour le push beacon
+KASlideShow             | 3.0.0             | 2016-07-25   | 2016-07-28             | Un petit carousel pour les images de la home
 
 
 ## Installation du Projet

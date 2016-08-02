@@ -80,12 +80,51 @@
                         <viewControllerLayoutGuide type="bottom" id="9Eh-eY-LOd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rgh-3s-dSZ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Smj-s6-1Ka">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="fIr-sG-IdH">
+                                    <rect key="frame" x="0.0" y="64" width="320" height="130"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mgX-Lk-Ggj" customClass="KASlideShow">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iih-Tp-UC7">
+                                            <rect key="frame" x="194" y="104" width="126" height="26"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slkjfds sdfklj fdsj " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qEk-Ro-0aW">
+                                                    <rect key="frame" x="10" y="5" width="106" height="16"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="0.65193965517241381" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="qEk-Ro-0aW" secondAttribute="trailing" constant="10" id="HsW-on-NP5"/>
+                                                <constraint firstItem="qEk-Ro-0aW" firstAttribute="top" secondItem="Iih-Tp-UC7" secondAttribute="top" constant="5" id="Pzb-1u-8cF"/>
+                                                <constraint firstAttribute="bottom" secondItem="qEk-Ro-0aW" secondAttribute="bottom" constant="5" id="VMd-V0-KyH"/>
+                                                <constraint firstItem="qEk-Ro-0aW" firstAttribute="leading" secondItem="Iih-Tp-UC7" secondAttribute="leading" constant="10" id="lKA-J8-hMm"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="Iih-Tp-UC7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fIr-sG-IdH" secondAttribute="leading" id="EnF-RG-pXD"/>
+                                        <constraint firstAttribute="bottom" secondItem="mgX-Lk-Ggj" secondAttribute="bottom" id="M93-ZL-qMz"/>
+                                        <constraint firstAttribute="trailing" secondItem="mgX-Lk-Ggj" secondAttribute="trailing" id="Mi0-kP-VU1"/>
+                                        <constraint firstAttribute="trailing" secondItem="Iih-Tp-UC7" secondAttribute="trailing" id="NCl-Kd-f2f"/>
+                                        <constraint firstAttribute="bottom" secondItem="Iih-Tp-UC7" secondAttribute="bottom" id="VwV-92-9QS"/>
+                                        <constraint firstItem="mgX-Lk-Ggj" firstAttribute="leading" secondItem="fIr-sG-IdH" secondAttribute="leading" id="g8m-9U-cPi"/>
+                                        <constraint firstItem="mgX-Lk-Ggj" firstAttribute="top" secondItem="fIr-sG-IdH" secondAttribute="top" id="ojI-pG-auM"/>
+                                    </constraints>
+                                </view>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -97,7 +136,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Vv7-dI-cKG"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="sliderLabel" destination="qEk-Ro-0aW" id="8hk-uy-ObW"/>
+                        <outlet property="slideshow" destination="mgX-Lk-Ggj" id="vsf-73-m7Q"/>
                         <outlet property="tableView" destination="Smj-s6-1Ka" id="r8l-8u-0MF"/>
                     </connections>
                 </viewController>
